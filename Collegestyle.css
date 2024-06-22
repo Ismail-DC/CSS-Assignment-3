@@ -86,4 +86,27 @@ Editing a college webpage.
     border-bottom: 5px solid #a66;
   }
   
- 
+ /* Links styling */
+
+a:link, a:visited {
+    color: #3366cc; /*  color */
+    text-decoration: underline;
+  }
+  
+  a:focus, a:hover {
+    color: #6699ff; /*  color */
+    text-decoration: none; /* Remove underline on hover */
+  }
+
+  a:active {
+    color: #ff0000; /*  color */
+    font-weight: bold; /*  styling */
+  }
+  
+  /* External links icon */
+
+a[href^="http"]:after {
+    content: url('external-link-icon.png'); 
+    margin-left: 5px;
+  }
+  
