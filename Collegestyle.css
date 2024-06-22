@@ -25,13 +25,25 @@ Editing a college webpage.
   
   body {
     font-family: 'PT Serif', serif;
+    font-size: 10px; /* Site-wide font size */
+  line-height: 1.5; /* Adjust line-height as necessary */
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Serif', serif;
+  h1 {
+  text-align: center; /* Center the top-level heading */ 
   }
-  
 
+  h1, h2, h3 {
+    font-family: 'Sans-serif-font', sans-serif; /* Replace with actual sans-serif font */
+    letter-spacing: 0.05em; /* Adjust letter-spacing */
+  }
+  
+  p {
+    letter-spacing: 0.02em; /* Adjust letter-spacing for body text */
+  }
+  section p:first-of-type {
+    text-indent: 20px; /* Indent first paragraph in each section */
+  }  
 * {
     box-sizing: border-box;
   }
